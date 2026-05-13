@@ -10,7 +10,7 @@ def get_base64_image(path):
         return base64.b64encode(img_file.read()).decode()
 
 img_base64 = get_base64_image("VIPAL.jpg")
-zap_base64 = get_base64_image("fotolucas.jpeg")
+zap_base64 = get_base64_image("zaplogo.png")
 
 # TOPO (imagem clicável)
 col1, col2, col3 = st.columns([1,2,1])
@@ -49,7 +49,7 @@ with col_left:
         ">
         """, unsafe_allow_html=True)
 
-        st.image("zaplogo.png", width=800)
+        st.image("fotolucas.jpeg", width=800)
 
         st.markdown("</div>", unsafe_allow_html=True)
 
