@@ -32,7 +32,7 @@ col_left, col_right = st.columns([3,1])
 with col_left:
     st.markdown("""
     <div style='margin-bottom:30px; font-size:30px;'>
-        <b>Nome Dinaldo Jorge</b>
+        <b>Nome Lucas Andrade</b>
     </div>
     """, unsafe_allow_html=True)
 
@@ -64,10 +64,10 @@ with col_left:
             max-width: none;
         ">
             <b>Sobre Dinaldo:<br>
-            Dinaldo Jorge, 49 anos, é um profissional experiente na área de sistemas de telecomunicações,
-            destacando-se pela sólida formação técnica e expertise em infraestrutura de rede, conectividade
-            e suporte de TI.Com vasta vivência no mercado, busca posições que exijam soluções inovadoras em
-            redes, segurança digital e administração de sistemas.
+            Lucas Andrade de Oliveira, nascido em 07 de outubro de 2008, é estudante da área de tecnologia, com grande interesse em informática, 
+        especialmente em sistemas operacionais, redes de computadores e lógica de programação. Ao longo de sua formação, vem desenvolvendo 
+        habilidades técnicas e fortalecendo seu raciocínio lógico por meio de atividades práticas e projetos acadêmicos, demonstrando dedicação, 
+        organização e constante vontade de aprender.
         </div>
         """, unsafe_allow_html=True)
 
