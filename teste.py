@@ -24,24 +24,24 @@ col1, col2, col3 = st.columns(3)
 # EMPRESA 1
 # =========================================
 with col1:
-    st.image("empresa1.png", use_container_width=True)
-    st.subheader("🚀 SpaceX")
-    st.write("Empresa de tecnologia espacial fundada por Elon Musk.")
+    st.image("empresa1.jpg", use_container_width=True)
+    st.subheader("Mc Donalds")
+    st.write("McDonald's Corporation é uma rede multinacional estadunidense de fast food.")
     st.link_button(
         "Acessar Site",
-        "https://www.spacex.com"
+        "https://www.mcdonalds.com.br/"
     )
 
 # =========================================
 # EMPRESA 2
 # =========================================
 with col2:
-    st.image("empresa2.png", use_container_width=True)
-    st.subheader("🍎 Apple")
-    st.write("Empresa mundialmente conhecida por iPhones e Macs.")
+    st.image("empresa2.jpg", use_container_width=True)
+    st.subheader("Bobs")
+    st.write("Fundado em 1952 no burburinho de Copacabana, o Bob's é a primeira rede de franquias do Brasil.")
     st.link_button(
         "Acessar Site",
-        "https://www.apple.com"
+        "https://bobs.com.br/"
     )
 
 # =========================================
@@ -49,15 +49,16 @@ with col2:
 # =========================================
 with col3:
     st.image("empresa3.png", use_container_width=True)
-    st.subheader("🎬 Netflix")
-    st.write("Plataforma líder de filmes e séries online.")
+    st.subheader("Burguer King")
+    st.write("O Burger King é uma rede de fast-food fundada em 1954 nos Estados Unidos por James McLamore e David Edgerton.
+    ")
     st.link_button(
         "Acessar Site",
-        "https://www.netflix.com"
+        "https://www.burgerking.com.br"
     )
 
 # =========================================
 # RODAPÉ
 # =========================================
 st.write("---")
-st.write("Desenvolvido por Dinaldo Jorge")
+st.write("Desenvolvido por Lucas Andrade")
