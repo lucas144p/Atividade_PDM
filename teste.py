@@ -50,8 +50,7 @@ with col2:
 with col3:
     st.image("empresa3.png", use_container_width=True)
     st.subheader("Burguer King")
-    st.write("O Burger King é uma rede de fast-food fundada em 1954 nos Estados Unidos por James McLamore e David Edgerton.
-    ")
+    st.write("O Burger King é uma rede de fast-food fundada em 1954 nos Estados Unidos por James McLamore e David Edgerton.")
     st.link_button(
         "Acessar Site",
         "https://www.burgerking.com.br"
