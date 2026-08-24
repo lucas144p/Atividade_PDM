@@ -105,10 +105,10 @@ if st.button("Calcular", use_container_width=True):
         ax.plot(x, y, linewidth=2, label=f"y = {a}x + {b}")
         
         # Eixo X
-        ax.axhline(y=0, linewidth=1, color='white')
+        ax.axhline(y=0, linewidth=1, color='black')
         
         # Eixo Y
-        ax.axvline(x=0, linewidth=1, color='white')
+        ax.axvline(x=0, linewidth=1, color='black')
         
         # Marca a raiz
         ax.scatter([x_raiz], [0], s=100, color='red', zorder=5, label=f"Raiz x = {x_raiz:.2f}")
